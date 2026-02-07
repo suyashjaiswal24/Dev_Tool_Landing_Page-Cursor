@@ -85,20 +85,8 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 
 ---
 
-## � Screenshots
+## � Screenshot
 ![Cursor](image.png)
-
-### Navigation & Hero Section
-![Hero Section](./screenshots/hero-section.png)
-*Main landing page with sticky navigation and hero image*
-
-### Company Logos Section
-![Companies Section](./screenshots/companies-section.png)
-*Trusted companies logo display grid*
-
-### Features Section
-![Features Section](./screenshots/features-section.png)
-*Key feature cards with descriptions*
 
 ---
 
