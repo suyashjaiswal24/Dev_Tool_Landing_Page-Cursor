@@ -37,8 +37,22 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 
 ### 4. **Features Section**
 - Feature cards highlighting key capabilities
-- Agents Feature: "Agents turn ideas into code" with supporting description and image
-- Clean layout with text on one side and feature images on the other
+- **Agents Feature**: "Agents turn ideas into code" with supporting description and image
+- **Autocomplete Feature**: "Magically accurate autocomplete" showcasing Tab model capabilities
+- **Integration Feature**: "In every tool, at every step" highlighting GitHub, Slack, and terminal integration
+- Clean layout with alternating text and image positions for better visual flow
+
+### 5. **Testimonials Section**
+- Heading: "The new way to build software."
+- 6 testimonial cards featuring quotes from industry leaders:
+  - Diana Hu (General Partner, Y Combinator)
+  - Jensen Huang (President & CEO, NVIDIA)
+  - Andrei Karpathy (CEO, Eureka Labs)
+  - Patrick Collison (Co-Founder & CEO, Stripe)
+  - shadcn (Creator of shadcn/ui)
+  - Greg Brockman (President, OpenAI)
+- Each card displays author name, title, and a professional headshot
+- Grid layout for responsive design
 
 ---
 
@@ -54,6 +68,7 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 
 ### **Color Palette**
 
+
 | Color | Hex Value | Usage |
 |-------|-----------|-------|
 | Primary Black | `#000000` | Main background color |
@@ -61,6 +76,12 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 | Light Gray | `#CCCCCC` | Hover states for links |
 | Dark Brown | `#1b1913` | Secondary background (cards, feature sections) |
 | Light Gray Text | `#edecec` | Heading text color |
+| Silver Gray | `#888888` | Secondary text color (paragraphs, captions) |
+| Orange Accent | `#f54e00` | Feature button text and interactive elements |
+| Dark Gray (Testimonials) | `#0c0c0c` | Testimonials section background |
+| Darker Gray | `#121212` | Testimonial card background |
+| Border Gray | `#1e1e1e` | Card borders |
+| Quote Text | `#e5e5e5` | Testimonial quote text color |
 
 ### **CSS Variables Defined**
 ```css
@@ -69,9 +90,9 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 --hover-color: #CCCCCC
 --bg-color: #1b1913
---h1-font-family: "CursorGothic"
+--h1-font-family: "CursorGothic", "CursorGothic Fallback", system-ui, "Helvetica Neue", "Helvetica", "Arial", "sans-serif"
+--silver-color: #888888
 ```
-
 ---
 
 ## 📐 Layout Features
@@ -86,7 +107,7 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 ---
 
 ## � Screenshot
-![Cursor](image.png)
+
 
 ---
 
