@@ -15,7 +15,7 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 ### 1. **Navigation Bar**
 - Fixed sticky navigation at the top
 - Logo and icon container on the left
-- Navigation links: Features, Enterprise, Pricing, Resources (centered)
+- Navigation links: Product, Enterprise, Pricing, Resources (centered)
 - CTA buttons: Sign In and Download (right side)
 
 ### 2. **Hero Section**
@@ -53,6 +53,15 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
   - Greg Brockman (President, OpenAI)
 - Each card displays author name, title, and a professional headshot
 - Grid layout for responsive design
+
+### 6. **Frontier Section**
+- Heading: "Stay on the frontier"
+- 3 feature cards showcasing advanced capabilities:
+  - **Use the best model for every task**: Choose from OpenAI, Anthropic, Gemini, xAI, and Cursor models
+  - **Complete codebase understanding**: Cursor learns and indexes codebases of any scale
+  - **Develop enduring software**: Enterprise-grade solution trusted by half of Fortune 500
+- Each card includes description, link, and imagery
+- Grid layout with equal distribution
 
 ---
 
@@ -92,6 +101,7 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 --bg-color: #1b1913
 --h1-font-family: "CursorGothic", "CursorGothic Fallback", system-ui, "Helvetica Neue", "Helvetica", "Arial", "sans-serif"
 --silver-color: #888888
+--width: 75%
 ```
 ---
 
@@ -100,13 +110,14 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 - **Responsive Grid Layout**: Company logos arranged in an 8-column grid
 - **Flexbox Navigation**: Responsive navigation with space-between distribution
 - **Feature Sections**: Alternating text and image layouts with background containers
-- **Width Constraint**: All sections maintain 85% width for optimal readability
+- **Width Constraint**: All sections maintain 75% width for optimal readability
 - **Rounded Corners**: Subtle border-radius (4-30px) for modern appearance
 - **Color Contrast**: High contrast dark mode design with light text on dark backgrounds
 
 ---
 
 ## � Screenshot
+![Cursor](image.png)
 ---
 
 ## �🖼️ Final Output Preview
