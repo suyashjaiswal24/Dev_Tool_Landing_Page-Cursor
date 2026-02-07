@@ -6,6 +6,7 @@
     --bg-color: #1b1913;
     --h1-font-family: "CursorGothic", "CursorGothic Fallback", system-ui, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     --silver-color: #888888;
+    --width: 75%;
 }
 
 * {
@@ -27,7 +28,7 @@ body {
     align-items: center;
     /* padding: 10px auto; */
     margin: 5px auto;
-    width: 85%;
+    width: var(--width);
     position: sticky;
     top: 0;
     background-color: var(--primary-color);
@@ -46,7 +47,7 @@ body {
 
 .nav-links-container {
     /* border: 1px solid red; */
-    width: 79%;
+    width: 70%;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -60,6 +61,10 @@ body {
 
 .nav-links-container a:hover {
     color: var(--hover-color);
+}
+
+.nav-cta-container{
+    /* width: 30%; */
 }
 
 .nav-cta-container button {
@@ -84,7 +89,7 @@ body {
 
 .hero-text-container {
     /* border: 2px solid red; */
-    width: 85%;
+    width: var(--width);
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -94,7 +99,7 @@ body {
 .hero-text-container h1 {
     font-family: var(--h1-font-family);
     font-weight: 400;
-    font-size: 1.625rem;
+    font-size: 26px;
     letter-spacing: -.0125em;
     color: #edecec;
 }
@@ -102,7 +107,7 @@ body {
 .hero-cta-buttons button {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    padding: 12px 24px;
+    padding: 12px 21px;
     border-radius: 30px;
     font-size: 16px;
     font-weight: 450;
@@ -110,7 +115,7 @@ body {
 }
 
 .hero-image-container {
-    width: 85%;
+    width: var(--width);
     margin: 50px auto;
     /* border: 1px solid red; */
 }
@@ -133,7 +138,7 @@ body {
 
 .logos {
     /* border: 1px solid red; */
-    width: 85%;
+    width: var(--width);
     margin: 50px auto;
 }
 
@@ -154,7 +159,7 @@ body {
 
 .feature {
     /* border: 1px solid red; */
-    width: 85%;
+    width: var(--width);
     margin: 50px auto;
 }
 
@@ -318,7 +323,7 @@ body {
 .testimonials {
     padding: 67px 0;
     background: #0c0c0c;
-    width: 85%;
+    width: var(--width);
     margin: 0 auto;
 }
 
