@@ -86,7 +86,7 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 ---
 
 ## � Screenshot
-![Cursor](image.png)
+
 
 ---
 
