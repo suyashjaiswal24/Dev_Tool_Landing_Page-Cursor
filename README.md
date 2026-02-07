@@ -63,6 +63,17 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 - Each card includes description, link, and imagery
 - Grid layout with equal distribution
 
+### 7. **Changelog Section**
+- Heading: "Changelog"
+- 4 changelog cards displaying recent updates:
+  - Version 2.4 (Jan 22, 2026): Subagents, Skills, and Image Generation
+  - Jan 16, 2026: CLI Agent Modes and Cloud Handoff
+  - Jan 8, 2026: New CLI Features and Improved CLI Performance
+  - Version 2.3 (Dec 22, 2025): Layout Customization and Stability Improvements
+- Each card displays version number (optional), date, and update title
+- Link to full changelog at the bottom: "See what's new in Cursor →"
+- 4-column grid layout
+
 ---
 
 ## 🎨 Typography & Color Scheme
@@ -87,10 +98,16 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 | Light Gray Text | `#edecec` | Heading text color |
 | Silver Gray | `#888888` | Secondary text color (paragraphs, captions) |
 | Orange Accent | `#f54e00` | Feature button text and interactive elements |
+| Brighter Orange | `#ff5a1f` | Changelog link color |
 | Dark Gray (Testimonials) | `#0c0c0c` | Testimonials section background |
-| Darker Gray | `#121212` | Testimonial card background |
+| Very Dark Gray (Changelog) | `#0b0b0b` | Changelog section background |
+| Darker Gray | `#121212` | Testimonial and changelog card background |
 | Border Gray | `#1e1e1e` | Card borders |
+| Version Badge Border | `#3a3a3a` | Version badge borders |
 | Quote Text | `#e5e5e5` | Testimonial quote text color |
+| Date Text | `#9a9a9a` | Changelog date text color |
+| Card Title Text | `#f2f2f2` | Changelog card title color |
+| Meta Text | `#cfcfcf` | Changelog version badge text color |
 
 ### **CSS Variables Defined**
 ```css
@@ -117,6 +134,7 @@ A recreation of the Cursor IDE landing page built with HTML, CSS, and semantic m
 ---
 
 ## � Screenshot
+![Cursor](image.png)
 ---
 
 ## �🖼️ Final Output Preview
@@ -157,7 +175,10 @@ Dev_Tool_Landing_Page-Cursor/
 │   ├── OpenAI/
 │   ├── Ramp/
 │   └── Stripe/
-└── [Additional assets: Images, SVG files]
+├── assets/                # Additional assets
+│   ├── avatars/           # Testimonial author avatars
+│   └── frontier/          # Frontier section images
+└── [Additional SVG and image files]
 ```
 
 ---
